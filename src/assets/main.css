@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* ::selection {
+    color: hsl(0, 0%, 100%) !important;
+    background: hsl(160, 84%, 39%) !important;
+}
